@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "preentrega3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.6.2",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "mongodb": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express-session": "^1.17.5",
+    "@types/passport": "^1.0.9",
+    "@types/passport-local": "^1.0.34"
+  }
+  }
